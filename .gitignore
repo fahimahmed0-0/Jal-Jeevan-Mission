@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+~$*
+
+# Workbooks produced by the app ("Save to project folder") and by old test runs
+/output/
+*.xlsx
+
+# Large sample documents — not needed on the server
+Doc/
+ebill_lines.txt
+ts_lines.txt
+
+# Test scripts not needed in deployment
+test_*.py
+parse_*_test.py
+inspect_*.py
+tools/
+
+# IDE / OS
+.claude/
+.vs/
+.vscode/
+.idea/
+Thumbs.db
